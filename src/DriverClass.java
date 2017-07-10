@@ -11,11 +11,13 @@ public class DriverClass {
         System.out.println(isUnique.isStringUniqueNoOtherDataStructure("test"));
         System.out.println(isUnique.isStringUniqueNoOtherDataStructure("house"));
 
-
         //1.2
-
         System.out.println(checkPermutation.checkIfStringsArePermutations("test", "estt"));
         System.out.println(checkPermutation.checkIfStringsArePermutations("test", "ettt"));
+
+        //1.3
+
+        System.out.println(URLify.StringToURL("this is a test"));
 
     }
 }
