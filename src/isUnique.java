@@ -10,6 +10,8 @@ public class isUnique {
 
     //Implement an algorithm to determine if a string has all unique characters.
 
+    //Both implementations assume valid strings are passed to the method
+
     public static boolean isStringUnique(String uniqueCharacters){
         Set characterSet = new HashSet();
         char[] uniqueCharacterArray = uniqueCharacters.toCharArray();

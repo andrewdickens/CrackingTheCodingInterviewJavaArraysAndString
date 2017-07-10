@@ -14,5 +14,8 @@ public class DriverClass {
 
         //1.2
 
+        System.out.println(checkPermutation.checkIfStringsArePermutations("test", "estt"));
+        System.out.println(checkPermutation.checkIfStringsArePermutations("test", "ettt"));
+
     }
 }
