@@ -7,8 +7,8 @@ import java.util.Set;
  */
 public class palindromePermutation {
     public static final int SINGLE_CHAR = 1;
-    //    Given a string, write a function to check if it is a getPermutationsOfString of a palindrome.  A palindrome is a word
-//    or phrase that is the same forwards and backwards.  A getPermutationsOfString is a rearrangement of letters.  the palindrome does not need
+    //    Given a string, write a function to check if it is a addPermutationsOfStringToSet of a palindrome.  A palindrome is a word
+//    or phrase that is the same forwards and backwards.  A addPermutationsOfStringToSet is a rearrangement of letters.  the palindrome does not need
 //    to be limited to just dictionary words.
 //
 //    EXAMPLE
@@ -23,14 +23,14 @@ public class palindromePermutation {
         ArrayList palindromicPermutations = new ArrayList();
         Set<String> wordSet = new HashSet<String>();
 
-        getPermutationsOfString("", inputString, wordSet);
+        addPermutationsOfStringToSet("", inputString, wordSet);
         addWordsFromSetToList(permutationList, wordSet);
-        determineIfWordIsPalindrome(permutationList, palindromicPermutations);
+        addPalindromesToPalindromeList(permutationList, palindromicPermutations);
 
         return palindromicPermutations;
     }
 
-    private static void determineIfWordIsPalindrome(ArrayList<String> permutationList, ArrayList palindromicPermutations) {
+    private static void addPalindromesToPalindromeList(ArrayList<String> permutationList, ArrayList palindromicPermutations) {
         for (String string : permutationList) {
             StringBuilder reversedString = new StringBuilder(string).reverse();
             System.out.println(reversedString + " and " + string);
@@ -57,7 +57,7 @@ public class palindromePermutation {
         System.out.println(permutationList);
     }
 
-    private static void getPermutationsOfString(String prefix, String inputString, Set wordSet) {
+    private static void addPermutationsOfStringToSet(String prefix, String inputString, Set wordSet) {
         if (isLastChar(inputString)) {
             addToWordSet(prefix, inputString, wordSet);
             return;
@@ -65,7 +65,7 @@ public class palindromePermutation {
 
         int n = inputString.length();
         for (int i = 0; i < n; i++) {
-            getPermutationsOfString(prefix + inputString.charAt(i), inputString.substring(0, i) + inputString.substring(i + 1, n), wordSet);
+            addPermutationsOfStringToSet(prefix + inputString.charAt(i), inputString.substring(0, i) + inputString.substring(i + 1, n), wordSet);
         }
     }
 
