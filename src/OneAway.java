@@ -57,7 +57,15 @@ public class OneAway {
     }
 
     private static boolean isOneInsertionAway(String baseString, String compareString) {
-        return false;
+        ArrayList<String> listOfWords = new ArrayList<String>();
+
+        for(int x=0; x<baseString.length()+SINGLE_CHAR; x++){
+            for(int y=0; y<LETTERS_IN_ENGLISH_ALPHABET; y++) {
+                listOfWords.add(baseString.substring(0, x) + alphabet.charAt(y) + baseString.substring(x, baseString.length()));
+            }
+        }
+
+        return checkIfMatchExists(compareString, listOfWords);
     }
 
     private static boolean isOneEditAway(String baseString, String compareString) {
