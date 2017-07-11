@@ -4,11 +4,11 @@ import java.util.ArrayList;
  * Created by anddica on 7/11/17.
  */
 public class OneAway {
-    public static final int SINGLE_CHAR = 1;
-    public static final int LETTERS_IN_ENGLISH_ALPHABET = 26;
-    public static final int BEGINNING_OF_ALPHABET = 0;
-    public static final int BEGINNING_OF_WORD = 0;
-    final static String lowercase_alphabet = "abcdefghijklmnopqrstuvwxyz"; //todo is this an "ok" approach?
+    private static final int SINGLE_CHAR = 1;
+    private static final int LETTERS_IN_ENGLISH_ALPHABET = 26;
+    private static final int BEGINNING_OF_ALPHABET = 0;
+    private static final int BEGINNING_OF_WORD = 0;
+    private final static String lowercase_alphabet = "abcdefghijklmnopqrstuvwxyz"; //todo is this an "ok" approach?
 
     //1.5 There are three types of edits that can be performed on strings: insert a character, remove a character, or replace a
     //character.  Given two strings, write a function to check if they are one edit (or zero edits) away.
