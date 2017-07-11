@@ -21,7 +21,14 @@ public class DriverClass {
 
         //1.4
 
+        System.out.println(palindromePermutation.getPalindromePermutations("tat"));
         System.out.println(palindromePermutation.getPalindromePermutations("tact coa"));
+
+        //1.5
+        System.out.println(OneAway.isOneAway("test", "text"));
+        System.out.println(OneAway.isOneAway("test", "tes"));
+        System.out.println(OneAway.isOneAway("test", "teste"));
+
 
     }
 }
