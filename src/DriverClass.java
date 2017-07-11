@@ -19,5 +19,9 @@ public class DriverClass {
 
         System.out.println(URLify.StringToURL("this is a test"));
 
+        //1.4
+
+        System.out.println(palindromePermutation.getPalindromePermutations("tat"));
+
     }
 }
