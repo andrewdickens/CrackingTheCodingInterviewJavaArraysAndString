@@ -21,7 +21,7 @@ public class DriverClass {
 
         //1.4
 
-        System.out.println(palindromePermutation.getPalindromePermutations("tat"));
+        System.out.println(palindromePermutation.getPalindromePermutations("tact coa"));
 
     }
 }

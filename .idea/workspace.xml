@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a8f75ef-ca2a-4be9-b699-0d96d0659920" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/palindromePermutation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CrackingCodingInterviewStringsAndArrays/DriverClass.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodingInterviewStringsAndArrays/DriverClass.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/CrackingCodingInterviewStringsAndArrays/URLify.class" afterPath="$PROJECT_DIR$/out/production/CrackingCodingInterviewStringsAndArrays/URLify.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/DriverClass.java" afterPath="$PROJECT_DIR$/src/DriverClass.java" />
     </list>
     <ignored path="CrackingCodingInterviewStringsAndArrays.iws" />
@@ -29,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DriverClass.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="DriverClass.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/DriverClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
+            <state vertical-scroll-proportion="0.7986111">
+              <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="palindromePermutation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="palindromePermutation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/palindromePermutation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5833333">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="25" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -74,8 +70,8 @@
         <option value="$PROJECT_DIR$/src/isUnique.java" />
         <option value="$PROJECT_DIR$/src/checkPermutation.java" />
         <option value="$PROJECT_DIR$/src/URLify.java" />
-        <option value="$PROJECT_DIR$/src/DriverClass.java" />
         <option value="$PROJECT_DIR$/src/palindromePermutation.java" />
+        <option value="$PROJECT_DIR$/src/DriverClass.java" />
       </list>
     </option>
   </component>
@@ -617,12 +613,12 @@
       <option name="number" value="Default" />
       <updated>1499702132620</updated>
       <workItem from="1499702137440" duration="7644000" />
-      <workItem from="1499789458308" duration="852000" />
+      <workItem from="1499789458308" duration="1024000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8496000" />
+    <option name="totallyTimeSpent" value="8668000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1276" height="777" extended-state="6" />
@@ -705,21 +701,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DriverClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="82" selection-start-line="23" selection-start-column="82" selection-end-line="23" selection-end-column="82" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/palindromePermutation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5833333">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DriverClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7986111">
+          <caret line="23" column="84" selection-start-line="23" selection-start-column="84" selection-end-line="23" selection-end-column="84" />
+          <folding />
         </state>
       </provider>
     </entry>
